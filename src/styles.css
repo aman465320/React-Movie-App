@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #f4ebbe;
+  /* color: #7E6C6C; */
+}
+
+.topbar {
+  background-color: #011936;
+}
+
+.main-img,
+.search-div,
+.card-div,
+.card,
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.main-img {
+  background-image: url("http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 91.5vh;
+  opacity: 0.85;
+}
+
+.search-div {
+  color: white;
+  font-size: 2em;
+}
+
+.main-form {
+  width: 350px;
+}
+
+.search-btn {
+  background-color: red;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.div-inp {
+  border: 1.5px solid black;
+  border-radius: 10px;
+  padding: 7.5px;
+  box-shadow: 0 2px 2px 0;
+}
+
+.navbar div a {
+  color: #ffc107;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card {
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+  /* box-shadow: 4px 5px 13px 1px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 4px 5px 13px 1px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 4px 5px 13px 1px rgba(0, 0, 0, 0.63); */
+  box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 5px 8px 1px rgba(0, 0, 0, 1);
+  width: 80%;
+  height: 100%;
+
+  background-color: #011936;
+}
+
+.card h4,
+.card h5 {
+  font-family: "Arima", cursive;
+  font-weight: bold;
+}
+
+.card h5 {
+  color: #f4fffd;
+}
+.card h4 {
+  color: #f9dc5c;
+}
+
+.search-div h1 {
+  color: #fbf9ff;
+}
